@@ -1,0 +1,27 @@
+## Project structure
+
+```
+todo-app/
+├─ backend/
+│  ├─ package.json
+│  ├─ .env.example
+│  ├─ server.js
+│  ├─ models/
+│  │  └─ Todo.js
+│  └─ routes/
+│     └─ todos.js
+
+├─ frontend/
+│  ├─ package.json
+│  ├─ src/
+│  │  ├─ index.js
+│  │  ├─ App.jsx
+│  │  ├─ components/
+│  │  │  ├─ TodoList.jsx
+│  │  │  └─ TodoItem.jsx
+│  │  └─ styles.css
+│  └─ public/
+│     └─ index.html
+
+└─ README.md
+```
